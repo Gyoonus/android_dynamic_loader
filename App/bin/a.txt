@@ -1,0 +1,230 @@
+Processing 'hello.apk'...
+Opened 'hello.apk', DEX version '035'
+Class #0            -
+  Class descriptor  : 'Lcom/test/helloandroid/MainActivity;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Landroid/app/Activity;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/test/helloandroid/MainActivity;)
+      name          : 'TAG'
+      type          : 'Ljava/lang/String;'
+      access        : 0x001a (PRIVATE STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/test/helloandroid/MainActivity;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0002f8:                                        |[0002f8] com.test.helloandroid.MainActivity.<init>:()V
+000308: 7010 0000 0000                         |0000: invoke-direct {v0}, Landroid/app/Activity;.<init>:()V // method@0000
+00030e: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=7
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/test/helloandroid/MainActivity; 
+
+  Virtual methods   -
+    #0              : (in Lcom/test/helloandroid/MainActivity;)
+      name          : 'onCreate'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0004 (PROTECTED)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 10 16-bit code units
+000310:                                        |[000310] com.test.helloandroid.MainActivity.onCreate:(Landroid/os/Bundle;)V
+000320: 6f20 0100 2100                         |0000: invoke-super {v1, v2}, Landroid/app/Activity;.onCreate:(Landroid/os/Bundle;)V // method@0001
+000326: 1400 0100 027f                         |0003: const v0, #float 172799659734448667129165341783696080896.000000 // #7f020001
+00032c: 6e20 0400 0100                         |0006: invoke-virtual {v1, v0}, Lcom/test/helloandroid/MainActivity;.setContentView:(I)V // method@0004
+000332: 0e00                                   |0009: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=11
+        0x0003 line=12
+        0x0009 line=13
+      locals        : 
+        0x0000 - 0x000a reg=1 this Lcom/test/helloandroid/MainActivity; 
+
+  source_file_idx   : 15 (MainActivity.java)
+
+Class #1            -
+  Class descriptor  : 'Lcom/test/helloandroid/R$attr;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/test/helloandroid/R$attr;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+000334:                                        |[000334] com.test.helloandroid.R.attr.<init>:()V
+000344: 7010 0a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000a
+00034a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=11
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/test/helloandroid/R$attr; 
+
+  Virtual methods   -
+  source_file_idx   : 17 (R.java)
+
+Class #2            -
+  Class descriptor  : 'Lcom/test/helloandroid/R$layout;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/test/helloandroid/R$layout;)
+      name          : 'activity_main'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lcom/test/helloandroid/R$layout;)
+      name          : 'activity_test'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/test/helloandroid/R$layout;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00034c:                                        |[00034c] com.test.helloandroid.R.layout.<init>:()V
+00035c: 7010 0a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000a
+000362: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=13
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/test/helloandroid/R$layout; 
+
+  Virtual methods   -
+  source_file_idx   : 17 (R.java)
+
+Class #3            -
+  Class descriptor  : 'Lcom/test/helloandroid/R$raw;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/test/helloandroid/R$raw;)
+      name          : 'classes'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/test/helloandroid/R$raw;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+000364:                                        |[000364] com.test.helloandroid.R.raw.<init>:()V
+000374: 7010 0a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000a
+00037a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=17
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/test/helloandroid/R$raw; 
+
+  Virtual methods   -
+  source_file_idx   : 17 (R.java)
+
+Class #4            -
+  Class descriptor  : 'Lcom/test/helloandroid/R$string;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+    #0              : (in Lcom/test/helloandroid/R$string;)
+      name          : 'app_name'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #1              : (in Lcom/test/helloandroid/R$string;)
+      name          : 'hello_msg'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #2              : (in Lcom/test/helloandroid/R$string;)
+      name          : 'menu_settings'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+    #3              : (in Lcom/test/helloandroid/R$string;)
+      name          : 'title_activity_main'
+      type          : 'I'
+      access        : 0x0019 (PUBLIC STATIC FINAL)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/test/helloandroid/R$string;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00037c:                                        |[00037c] com.test.helloandroid.R.string.<init>:()V
+00038c: 7010 0a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000a
+000392: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=20
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/test/helloandroid/R$string; 
+
+  Virtual methods   -
+  source_file_idx   : 17 (R.java)
+
+Class #5            -
+  Class descriptor  : 'Lcom/test/helloandroid/R;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Lcom/test/helloandroid/R;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+000394:                                        |[000394] com.test.helloandroid.R.<init>:()V
+0003a4: 7010 0a00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000a
+0003aa: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=10
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/test/helloandroid/R; 
+
+  Virtual methods   -
+  source_file_idx   : 17 (R.java)
+
