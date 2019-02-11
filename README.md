@@ -1,5 +1,6 @@
 # android dynamic loader
-## android Application Dynamic Loader Using InmemoryDexClassLoader
+
+android Application Dynamic Loader Using InmemoryDexClassLoader
 
 
 # How to Use
@@ -37,38 +38,38 @@ dalvik.system.Dexfile.openDexFile()
 
 
 
-java.lang.Object
+    java.lang.Object
 
-    ↳    java.lang.ClassLoader
+        ↳    java.lang.ClassLoader
     
-        ↳    dalvik.system.BaseDexClassLoader
+            ↳    dalvik.system.BaseDexClassLoader
         
-            ↳    dalvik.system.PathClassLoader
+                ↳    dalvik.system.PathClassLoader
             
-                ↳    dalvik.system.DelegateLastClassLoader
+                    ↳    dalvik.system.DelegateLastClassLoader
 
 
-java.lang.Object
+    java.lang.Object
 
-    ↳ java.lang.ClassLoader
+        ↳ java.lang.ClassLoader
     
-        ↳    dalvik.system.BaseDexClassLoader
+            ↳    dalvik.system.BaseDexClassLoader
         
-            ↳    dalvik.system.DexClassLoader
+                ↳    dalvik.system.DexClassLoader
 
-java.lang.Object
+    java.lang.Object
 
-    ↳ java.lang.ClassLoader
+        ↳ java.lang.ClassLoader
     
-        ↳    dalvik.system.BaseDexClassLoader
+            ↳    dalvik.system.BaseDexClassLoader
         
-            ↳    dalvik.system.PathClassLoader
+                ↳    dalvik.system.PathClassLoader
             
-                ↳    dalvik.system.DelegateLastClassLoader
+                    ↳    dalvik.system.DelegateLastClassLoader
 
 
-기존 ClassLoader parent classloader -> child classloader
+    기존 ClassLoader parent classloader -> child classloader
 
-DelegateLastClassLoader child classloader -> parent classloader
+    DelegateLastClassLoader child classloader -> parent classloader
 
             업캐스팅 후 다운캐스팅(x)
