@@ -1,7 +1,7 @@
 # android dynamic loader
 
 android Application Dynamic Loader Using InmemoryDexClassLoader
-
+It can be used to make Android App Packer
 
 # How to Use
 ## build example
